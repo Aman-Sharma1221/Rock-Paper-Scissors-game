@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+        height: 100vh;
+        display:flex;
+        justify-content: center; flex-direction:column;
+        align-items: center; 
+        background-color: rgb(26, 132, 132);
+        font-family: sans-serif;
+    }
+   .arrangebtn{
+    font-size: x-large;
+    align-self:center;
+border: 2px;
+   }
