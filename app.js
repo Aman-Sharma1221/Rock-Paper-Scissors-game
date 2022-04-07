@@ -3,7 +3,7 @@ const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
 const possiblechoices = document.querySelectorAll('button')
 let userChoice
-let Computerchoice
+let ComputerChoice
 let result
 possiblechoices.forEach(possiblechoices => possiblechoices.addEventListener('click',(e)  =>{
     userChoice=e.target.id
