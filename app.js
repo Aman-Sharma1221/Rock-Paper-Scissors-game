@@ -33,19 +33,19 @@ function getResult() {
         result = 'its a draw!'
     }
     if (computerChoice === 'rock' && userChoice === "paper") {
-        result = 'you win 🎊'
+        result = 'you win!'
     }
     if (computerChoice === 'rock' && userChoice === "scissors") {
         result = 'you lost!'
     }
     if (computerChoice === 'paper' && userChoice === "scissors") {
-        result = 'you win 🎊'
+        result = 'you win!'
     }
     if (computerChoice === 'paper' && userChoice === "rock") {
         result = 'you lose!'
     }
     if (computerChoice === 'scissors' && userChoice === "rock") {
-        result = 'you win 🎊'
+        result = 'you win!'
     }
     if (computerChoice === 'scissors' && userChoice === "paper") {
         result = 'you lose!'
